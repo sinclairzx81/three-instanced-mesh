@@ -1,0 +1,1 @@
+export { createInstancedBufferGeometry } from './instanced'
