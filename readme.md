@@ -1,6 +1,6 @@
 # three-instanced-mesh
 
-A reference project enabling geometry instancing for threejs' materials.
+A reference project enabling geometry instancing for threejs' MeshStandardMaterial.
 
 ```typescript
 import * as THREE from 'three'
@@ -26,7 +26,7 @@ mesh.updateInstances()
 
 ### overview
 
-This project is a small reference project for enabling geometry instancing in threejs' and having it integrate with threes existing material and shadow mapping pipeline. This project provides reference `depth`, `distance` and `standard` material shaders and a small demo.
+This project is a small reference project for enabling geometry instancing for threejs and having it integrate with threes existing material and shadow mapping pipeline. This project provides reference `depth`, `distance` and `standard` material shaders and a small demo.
 
 A demo of this project can be found [here](https://codepen.io/anon/pen/wZOrKd)
 
